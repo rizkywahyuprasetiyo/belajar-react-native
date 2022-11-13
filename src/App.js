@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {View, Text} from 'react-native';
 import BasicJavascript from './pages/BasicJavascript';
+import CallAPIVanilla from './pages/CallAPIVanilla';
 import FlexBox from './pages/FlexBox';
 import Komunikasi from './pages/Komunikasi';
 import PropsDinamis from './pages/PropsDinamis';
@@ -25,7 +26,8 @@ const App = () => {
             {/* <StateDinamis /> */}
             {/* <Komunikasi /> */}
             {/* <BasicJavascript /> */}
-            <ReactNativeSvg />
+            {/* <ReactNativeSvg /> */}
+            <CallAPIVanilla />
         </View>
     );
 };
