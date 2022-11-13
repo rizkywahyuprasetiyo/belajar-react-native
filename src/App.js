@@ -4,6 +4,7 @@ import BasicJavascript from './pages/BasicJavascript';
 import FlexBox from './pages/FlexBox';
 import Komunikasi from './pages/Komunikasi';
 import PropsDinamis from './pages/PropsDinamis';
+import ReactNativeSvg from './pages/ReactNativeSvg';
 import StateDinamis from './pages/StateDinamis';
 
 const App = () => {
@@ -23,7 +24,8 @@ const App = () => {
             {/* <PropsDinamis /> */}
             {/* <StateDinamis /> */}
             {/* <Komunikasi /> */}
-            <BasicJavascript />
+            {/* <BasicJavascript /> */}
+            <ReactNativeSvg />
         </View>
     );
 };
