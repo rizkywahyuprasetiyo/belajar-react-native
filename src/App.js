@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {View, Text} from 'react-native';
+import BasicJavascript from './pages/BasicJavascript';
 import FlexBox from './pages/FlexBox';
 import Komunikasi from './pages/Komunikasi';
 import PropsDinamis from './pages/PropsDinamis';
@@ -21,7 +22,8 @@ const App = () => {
             {/* <FlexBox /> */}
             {/* <PropsDinamis /> */}
             {/* <StateDinamis /> */}
-            <Komunikasi />
+            {/* <Komunikasi /> */}
+            <BasicJavascript />
         </View>
     );
 };
