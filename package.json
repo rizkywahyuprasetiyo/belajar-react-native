@@ -11,6 +11,7 @@
     "emulator": "cd ~ && cd Android/Sdk/emulator && ./emulator -avd Pixel_4_API_30"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "react": "18.1.0",
     "react-native": "0.70.5",
     "react-native-svg": "^13.5.0"

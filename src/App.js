@@ -7,6 +7,7 @@ import Komunikasi from './pages/Komunikasi';
 import PropsDinamis from './pages/PropsDinamis';
 import ReactNativeSvg from './pages/ReactNativeSvg';
 import StateDinamis from './pages/StateDinamis';
+import CallAPIAxios from './pages/CallAPIAxios';
 
 const App = () => {
     const [isShow, setIsShow] = useState(true);
@@ -27,7 +28,8 @@ const App = () => {
             {/* <Komunikasi /> */}
             {/* <BasicJavascript /> */}
             {/* <ReactNativeSvg /> */}
-            <CallAPIVanilla />
+            {/* <CallAPIVanilla /> */}
+            <CallAPIAxios />
         </View>
     );
 };
