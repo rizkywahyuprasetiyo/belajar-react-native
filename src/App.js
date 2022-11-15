@@ -8,6 +8,7 @@ import PropsDinamis from './pages/PropsDinamis';
 import ReactNativeSvg from './pages/ReactNativeSvg';
 import StateDinamis from './pages/StateDinamis';
 import CallAPIAxios from './pages/CallAPIAxios';
+import LocalAPI from './pages/LocalAPI';
 
 const App = () => {
     const [isShow, setIsShow] = useState(true);
@@ -29,7 +30,8 @@ const App = () => {
             {/* <BasicJavascript /> */}
             {/* <ReactNativeSvg /> */}
             {/* <CallAPIVanilla /> */}
-            <CallAPIAxios />
+            {/* <CallAPIAxios /> */}
+            <LocalAPI />
         </View>
     );
 };
